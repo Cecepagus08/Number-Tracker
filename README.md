@@ -1,18 +1,16 @@
 
 Phone Number Tracker adalah script Python sederhana yang digunakan untuk melacak informasi dasar dari nomor telepon yang dimasukkan pengguna, seperti lokasi, operator, validitas, dan zona waktu.
 
-## Persyaratan
-
-Sebelum menjalankan script ini, pastikan Anda telah mengikuti langkah langkah dengar benar
 
 
-## Langkah-langkah Pemasangan
+## Ikutin cara ini
 ## Buka termux dam masukkan perintah
+## Tulis perintahnya satu satu
 ```sh
 pkg update && pkg upgrade -y
 pkg install python
 pkg install git
-git clone https://github.com/username/phone-number-tracker.git
+git clone https://github.com/Cecepagus08/Number-Tracker.git
 pip install phonenumbers
 cd phone-number-tracker
 python TrackNumber.py
@@ -22,7 +20,7 @@ python TrackNumber.py
 
 ### Contoh Hasil
 
-Script akan menampilkan informasi yang dikumpulkan tentang nomor telepon tersebut:
+tampilan hasil informasi nya begini
 
 ```plaintext
 --- Phone Number Information ---
@@ -34,6 +32,4 @@ Formatted Number  : +62 812-3456-7890
 Time Zones        : Asia/Jakarta
 ```
 
-# Number-Tracker
-# Number-Tracker
-# Number-Tracker
+
